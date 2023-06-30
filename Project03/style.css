@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: chartreuse;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+input[type="file"],
+select {
+    margin-bottom: 20px;
+}
+
+#convertBtn {
+    margin-bottom: 20px;
+}
+
+#downloadLink {
+    display: none;
+}
